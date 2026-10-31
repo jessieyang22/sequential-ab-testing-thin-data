@@ -1,0 +1,11 @@
+[PASS] beta-binomial P(pT>pC) vs MC for counts (3, 1000, 7, 1500) exact=0.704379 mc=0.704552
+[PASS] beta-binomial P(pT>pC) vs MC for counts (0, 2000, 4, 2000) exact=0.968828 mc=0.968747
+[PASS] beta-binomial P(pT>pC) vs MC for counts (12, 5000, 20, 5000) exact=0.918969 mc=0.919054
+[PASS] beta-binomial P(pT>pC) vs MC for counts (1, 200, 0, 300) exact=0.159840 mc=0.159996
+[PASS] fast beta-binomial tail sum matches scipy betabinom.sf (n up to 50,000) max abs diff=2.12e-10
+[PASS] pooled z with zero conversions returns 0 (no reject) 
+[PASS] mSPRT with zero variance returns log lambda 0 (continue) 
+[PASS] Bayesian rule with zero conversions gives P(up) finite 
+[PASS] mSPRT closed form at d = 0 -0.111572 vs -0.111572
+Smoke test, Scenario A, n = 2000, R = 500 (FPR by rule): M1=0.026, M2=0.012, M3=0.068, M4=0.022, M5=0.000, M6=0.102
+[PASS] smoke test ran for all six rules 

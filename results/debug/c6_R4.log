@@ -1,0 +1,50 @@
+R4 cell A 2000
+R4 cell A 5000
+R4 cell A 10000
+R4 cell A 25000
+R4 cell A 50000
+R4 done for A
+R4 cell M0.5 2000
+R4 cell M0.5 5000
+R4 cell M0.5 10000
+R4 cell M0.5 25000
+R4 cell M0.5 50000
+R4 done for M0.5
+R4 cell M1.0 2000
+R4 cell M1.0 5000
+R4 cell M1.0 10000
+R4 cell M1.0 25000
+R4 cell M1.0 50000
+R4 done for M1.0
+                                                                         data_source scenario    p  n_per_arm                     method  reject_rate  positive_reject_rate  undefined_z_count  reps      seed  sensitivity_only
+0   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0       2000        unadjusted pooled z       0.0455                0.0200                  0  2000  20261129              True
+1   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0       2000  regression adjusted (HC1)       0.0540                0.0235                  0  2000  20261129              True
+2   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0       5000        unadjusted pooled z       0.0485                0.0200                  0  2000  20261130              True
+3   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0       5000  regression adjusted (HC1)       0.0465                0.0175                  0  2000  20261130              True
+4   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0      10000        unadjusted pooled z       0.0470                0.0200                  0  2000  20261131              True
+5   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0      10000  regression adjusted (HC1)       0.0485                0.0235                  0  2000  20261131              True
+6   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0      25000        unadjusted pooled z       0.0505                0.0270                  0  2000  20261132              True
+7   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0      25000  regression adjusted (HC1)       0.0495                0.0260                  0  2000  20261132              True
+8   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0      50000        unadjusted pooled z       0.0460                0.0245                  0  2000  20261133              True
+9   resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data        A  0.0      50000  regression adjusted (HC1)       0.0515                0.0240                  0  2000  20261133              True
+10  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5       2000        unadjusted pooled z       0.0585                0.0470                  0  2000  20261149              True
+11  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5       2000  regression adjusted (HC1)       0.0680                0.0550                  0  2000  20261149              True
+12  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5       5000        unadjusted pooled z       0.0950                0.0910                  0  2000  20261150              True
+13  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5       5000  regression adjusted (HC1)       0.0830                0.0790                  0  2000  20261150              True
+14  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5      10000        unadjusted pooled z       0.1335                0.1310                  0  2000  20261151              True
+15  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5      10000  regression adjusted (HC1)       0.1240                0.1205                  0  2000  20261151              True
+16  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5      25000        unadjusted pooled z       0.2895                0.2895                  0  2000  20261152              True
+17  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5      25000  regression adjusted (HC1)       0.2450                0.2450                  0  2000  20261152              True
+18  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5      50000        unadjusted pooled z       0.4915                0.4915                  0  2000  20261153              True
+19  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M0.5  0.5      50000  regression adjusted (HC1)       0.4230                0.4230                  0  2000  20261153              True
+20  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0       2000        unadjusted pooled z       0.0975                0.0935                  0  2000  20261159              True
+21  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0       2000  regression adjusted (HC1)       0.0990                0.0925                  0  2000  20261159              True
+22  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0       5000        unadjusted pooled z       0.2030                0.2020                  0  2000  20261160              True
+23  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0       5000  regression adjusted (HC1)       0.1690                0.1680                  0  2000  20261160              True
+24  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0      10000        unadjusted pooled z       0.3735                0.3730                  0  2000  20261161              True
+25  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0      10000  regression adjusted (HC1)       0.3205                0.3200                  0  2000  20261161              True
+26  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0      25000        unadjusted pooled z       0.7240                0.7240                  0  2000  20261162              True
+27  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0      25000  regression adjusted (HC1)       0.6345                0.6345                  0  2000  20261162              True
+28  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0      50000        unadjusted pooled z       0.9535                0.9535                  0  2000  20261163              True
+29  resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data     M1.0  1.0      50000  regression adjusted (HC1)       0.9040                0.9040                  0  2000  20261163              True
+done in 2474.1 s

@@ -1,0 +1,50 @@
+OBF two-sided 0.05: max |upper bound| difference between delta=1 and delta=2.5 = 0.00e+00
+  OBF two-sided 0.05: total null crossing probability = 0.050000
+Pocock two-sided 0.05: max |upper bound| difference between delta=1 and delta=2.5 = 0.00e+00
+  Pocock two-sided 0.05: total null crossing probability = 0.050000
+OBF two-sided 0.01: max |upper bound| difference between delta=1 and delta=2.5 = 0.00e+00
+  OBF two-sided 0.01: total null crossing probability = 0.010000
+Pocock two-sided 0.01: max |upper bound| difference between delta=1 and delta=2.5 = 0.00e+00
+  Pocock two-sided 0.01: total null crossing probability = 0.010000
+   spending two_sided_alpha look timing  upper_z null_cross_prob_this_look
+1       OBF            0.05    1    0.2 4.876885              1.077743e-06
+2       OBF            0.05    2    0.4 3.357011              7.872260e-04
+3       OBF            0.05    3    0.6 2.680280              6.827823e-03
+4       OBF            0.05    4    0.8 2.289817              1.680746e-02
+5       OBF            0.05    5    1.0 2.031032              2.557642e-02
+6    Pocock            0.05    1    0.2 2.437977              1.476973e-02
+7    Pocock            0.05    2    0.4 2.426814              1.138714e-02
+8    Pocock            0.05    3    0.6 2.410194              9.268795e-03
+9    Pocock            0.05    4    0.8 2.396645              7.816333e-03
+10   Pocock            0.05    5    1.0 2.385985              6.758014e-03
+11      OBF            0.01    1    0.2 6.168001              6.915872e-10
+12      OBF            0.01    2    0.4 4.286717              1.813290e-05
+13      OBF            0.01    3    0.6 3.443573              5.623327e-04
+14      OBF            0.01    4    0.8 2.946979              2.817465e-03
+15      OBF            0.01    5    1.0 2.615310              6.602076e-03
+16   Pocock            0.01    1    0.2 2.972490              2.953945e-03
+17   Pocock            0.01    2    0.4 2.989937              2.277426e-03
+18   Pocock            0.01    3    0.6 2.991885              1.853759e-03
+19   Pocock            0.01    4    0.8 2.991612              1.563267e-03
+20   Pocock            0.01    5    1.0 2.991107              1.351603e-03
+   null_cross_prob_total gsdesign_version
+1             0.05000001           3.11.0
+2             0.05000001           3.11.0
+3             0.05000001           3.11.0
+4             0.05000001           3.11.0
+5             0.05000001           3.11.0
+6             0.05000001           3.11.0
+7             0.05000001           3.11.0
+8             0.05000001           3.11.0
+9             0.05000001           3.11.0
+10            0.05000001           3.11.0
+11            0.01000001           3.11.0
+12            0.01000001           3.11.0
+13            0.01000001           3.11.0
+14            0.01000001           3.11.0
+15            0.01000001           3.11.0
+16            0.01000000           3.11.0
+17            0.01000000           3.11.0
+18            0.01000000           3.11.0
+19            0.01000000           3.11.0
+20            0.01000000           3.11.0

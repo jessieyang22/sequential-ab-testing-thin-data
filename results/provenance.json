@@ -1,0 +1,457 @@
+{
+  "script": "src/c9_provenance.py",
+  "note": "Metadata added after the run to meet DESIGN.md section 8. Dates are file modification times. Files with simulation=false use no simulation.",
+  "cache_dir_note": "raw arrays in data/raw/cache (git-ignored)",
+  "files": {
+    "answers.json": {
+      "script": "src/c8_answers.py",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "inherits the seeds of the files it reads",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:38:57-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "c1_balance.csv": {
+      "script": "src/c1_pipeline.py",
+      "simulation": false,
+      "data_source": "held-out partition H (real data, not simulated)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T00:03:50-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "c1_pipeline.json": {
+      "script": "src/c1_pipeline.py",
+      "simulation": false,
+      "data_source": "full file and held-out partition H counts (real data, not simulated)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T00:03:51-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "c2_power_check.json": {
+      "script": "src/c2_power.py",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "20261089 (reserved cell index 60, DESIGN.md 13.1.12)",
+      "R": 2000,
+      "n_grid": [
+        29630
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T00:11:51-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "c2_sample_size.csv": {
+      "script": "src/c2_power.py",
+      "simulation": false,
+      "data_source": "closed-form formula with control and treated rates from H counts (not simulated)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T00:11:44-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "checks_V2_V4.json": {
+      "script": "src/c5_score.py",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + cell_index (same cells as primary_grid.csv); exact checks use no seed",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:59:23-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "data_profile.json": {
+      "script": "src/data_profile.py",
+      "simulation": false,
+      "data_source": "descriptive counts from the full raw file (real data, not simulated)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-29T23:22:12-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/c10_sensitivity.log": {
+      "script": "src/c10_sensitivity.py all (console log)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED 20261029 (common.py)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:38:20-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/c3_unit_tests.log": {
+      "script": "src/c3_unit_tests.py (console log)",
+      "simulation": false,
+      "data_source": "unit tests on the rules and engine (no results)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:54:08-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/c3_validate_R.log": {
+      "script": "src/c3_validate_R.R (console log)",
+      "simulation": false,
+      "data_source": "gsDesign boundary arithmetic (no data)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:52:53-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/c5_run.log": {
+      "script": "src/c5_score.py (console log)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED 20261029 (common.py)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:59:23-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/c6_R1.log": {
+      "script": "src/c6_robustness.py R1 (console log)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED 20261029 (common.py)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:11:31-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/c6_R3.log": {
+      "script": "src/c6_robustness.py R3 (console log)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED 20261029 (common.py)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:14:06-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/c6_R4.log": {
+      "script": "src/c6_robustness.py R4 (console log)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED 20261029 (common.py)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:35:38-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/c8.log": {
+      "script": "src/c8_answers.py (console log)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED 20261029 (common.py)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:38:57-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/engine_check_D.json": {
+      "script": "src/c4_engine.py",
+      "simulation": true,
+      "data_source": "development partition D, debugging only (real data, not resampled; no reported number)",
+      "seed": "999 (debug only, partition D)",
+      "R": 6000,
+      "n_grid": [
+        2000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T00:11:04-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/unit_tests.txt": {
+      "script": "src/c3_unit_tests.py",
+      "simulation": false,
+      "data_source": "unit tests on the rules and engine (no results)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:54:08-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "debug/v3_run.log": {
+      "script": "src/c3_boundaries.py (console log)",
+      "simulation": false,
+      "data_source": "boundary arithmetic (no data)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:53:56-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "gsdesign_boundaries.csv": {
+      "script": "src/c3_validate_R.R",
+      "simulation": false,
+      "data_source": "group-sequential boundary arithmetic from gsDesign (no data)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:52:53-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "primary_grid.csv": {
+      "script": "src/c5_score.py",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + cell_index (20261029 + index in common.cell_list())",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:58:38-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "python_boundaries.csv": {
+      "script": "src/c3_boundaries.py",
+      "simulation": false,
+      "data_source": "group-sequential boundary arithmetic (no data)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:53:56-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "robust_R1_visit_grid.csv": {
+      "script": "src/c6_robustness.py",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + cell_index (cell_list order, visit outcome)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:11:31-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "robust_R3_schedule_alpha.csv": {
+      "script": "src/c6_robustness.py",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + cell_index (conversion cells, same as primary)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:14:04-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "robust_R4_cuped.csv": {
+      "script": "src/c6_robustness.py",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "per-cell seeds recorded in the file's seed column",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:35:38-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "sensitivity_S1_M5_tau2.csv": {
+      "script": "src/c10_sensitivity.py S1 (post hoc, DESIGN.md 13.4)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + cell_index (same cells as primary grid; multiplier 1 reproduces primary M5)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:37:01-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "sensitivity_S2_R4_diagnostic_A_n50000.json": {
+      "script": "src/c10_sensitivity.py S2 (post hoc, DESIGN.md 13.4)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + 104 (same stream as R4, A, n = 50,000)",
+      "R": 500,
+      "n_grid": [
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:37:43-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "sensitivity_S2_R4_diagnostic_M1.0_n50000.json": {
+      "script": "src/c10_sensitivity.py S2 (post hoc, DESIGN.md 13.4)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + 134 (same stream as R4, M(1.0), n = 50,000)",
+      "R": 500,
+      "n_grid": [
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:37:24-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "sensitivity_S3_full_H_ols.json": {
+      "script": "src/c10_sensitivity.py S3 (post hoc, DESIGN.md 13.4)",
+      "simulation": false,
+      "data_source": "all rows of partition H (real data, not resampled, not synthetic)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:37:46-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "sensitivity_S4_M6_matched_alpha.csv": {
+      "script": "src/c10_sensitivity.py S4 (post hoc)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + cell_index (same cells as primary grid, Scenarios A and M(1.0))",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:38:09-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "sensitivity_S5_design_inputs.json": {
+      "script": "src/c10_sensitivity.py S5 (post hoc, arithmetic)",
+      "simulation": false,
+      "data_source": "arithmetic on the H counts, closed-form formulas and a workload count (no simulation)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:38:09-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "sensitivity_S6_alternative_truth.csv": {
+      "script": "src/c10_sensitivity.py S6 (post hoc)",
+      "simulation": true,
+      "data_source": "resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data",
+      "seed": "SEED + 500 + n index (n index 0 to 4 for n = 2,000 to 50,000)",
+      "R": 2000,
+      "n_grid": [
+        2000,
+        5000,
+        10000,
+        25000,
+        50000
+      ],
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T04:38:20-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    },
+    "v3_boundary_check.json": {
+      "script": "src/c3_boundaries.py",
+      "simulation": false,
+      "data_source": "group-sequential boundary arithmetic (no data)",
+      "seed": "not applicable",
+      "R": "not applicable",
+      "n_grid": "not applicable",
+      "git": "not a git repository; no commit made (DESIGN.md section 12)",
+      "file_modified": "2026-10-30T03:53:56-04:00",
+      "date_source": "file modification time (not written by the producing script)"
+    }
+  }
+}

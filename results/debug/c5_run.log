@@ -1,0 +1,59 @@
+done A 2000 2.2 s
+done A 5000 5.4 s
+done A 10000 14.7 s
+done A 25000 39.0 s
+done A 50000 81.7 s
+done M0.25 2000 82.9 s
+done M0.25 5000 85.4 s
+done M0.25 10000 90.4 s
+done M0.25 25000 99.6 s
+done M0.25 50000 127.8 s
+done M0.5 2000 128.5 s
+done M0.5 5000 131.6 s
+done M0.5 10000 137.0 s
+done M0.5 25000 152.3 s
+done M0.5 50000 185.6 s
+done M1.0 2000 187.0 s
+done M1.0 5000 189.9 s
+done M1.0 10000 195.5 s
+done M1.0 25000 209.8 s
+done M1.0 50000 253.5 s
+V2: {
+ "check": "V2",
+ "value_M1_FPR_n5000": 0.049,
+ "band": [
+  0.035,
+  0.065
+ ],
+ "pass": true,
+ "exact_check": [
+  {
+   "n_per_arm": 2000,
+   "control_rate": 0.0019394052093353693,
+   "exact_fpr_M1": 0.04482443593276834,
+   "exact_fpr_M2": 0.017545412427546984,
+   "mass_covered": 1.0000000000000009
+  },
+  {
+   "n_per_arm": 5000,
+   "control_rate": 0.0019394052093353693,
+   "exact_fpr_M1": 0.05132689527845457,
+   "exact_fpr_M2": 0.029133713511136486,
+   "mass_covered": 1.0000000000000009
+  }
+ ],
+ "exact_M1_within_band": true
+}
+V4: {
+ "check": "V4",
+ "value_M5_FPR_by_n": {
+  "2000": 0.0,
+  "5000": 0.0,
+  "10000": 0.0,
+  "25000": 0.001,
+  "50000": 0.0005
+ },
+ "band_max": 0.065,
+ "pass": true
+}
+Wrote <repo>/results/primary_grid.csv in 298.3 s

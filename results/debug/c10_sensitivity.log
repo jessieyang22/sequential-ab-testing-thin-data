@@ -1,0 +1,61 @@
+S1 A 2000 0.1 0.0 0.0
+S1 A 2000 1.0 0.0 0.0
+S1 A 2000 10.0 0.0015 0.001
+S1 A 2000 100.0 0.0 0.0
+S1 A 5000 0.1 0.0 0.0
+S1 A 5000 1.0 0.0 0.0
+S1 A 5000 10.0 0.005 0.0035
+S1 A 5000 100.0 0.002 0.001
+S1 A 10000 0.1 0.0 0.0
+S1 A 10000 1.0 0.0 0.0
+S1 A 10000 10.0 0.007 0.0025
+S1 A 10000 100.0 0.0045 0.0005
+S1 A 25000 0.1 0.0 0.0
+S1 A 25000 1.0 0.001 0.0005
+S1 A 25000 10.0 0.0135 0.004
+S1 A 25000 100.0 0.0115 0.0055
+S1 A 50000 0.1 0.0 0.0
+S1 A 50000 1.0 0.0005 0.0
+S1 A 50000 10.0 0.014 0.006
+S1 A 50000 100.0 0.0145 0.0075
+S1 M1.0 2000 0.1 0.0 0.0
+S1 M1.0 2000 1.0 0.0 0.0
+S1 M1.0 2000 10.0 0.0085 0.0085
+S1 M1.0 2000 100.0 0.006 0.006
+S1 M1.0 5000 0.1 0.0 0.0
+S1 M1.0 5000 1.0 0.0015 0.0015
+S1 M1.0 5000 10.0 0.037 0.037
+S1 M1.0 5000 100.0 0.03 0.03
+S1 M1.0 10000 0.1 0.0 0.0
+S1 M1.0 10000 1.0 0.0085 0.0085
+S1 M1.0 10000 10.0 0.12 0.12
+S1 M1.0 10000 100.0 0.0875 0.0875
+S1 M1.0 25000 0.1 0.0 0.0
+S1 M1.0 25000 1.0 0.111 0.111
+S1 M1.0 25000 10.0 0.4165 0.4165
+S1 M1.0 25000 100.0 0.3665 0.366
+S1 M1.0 50000 0.1 0.0 0.0
+S1 M1.0 50000 1.0 0.441 0.441
+S1 M1.0 50000 10.0 0.813 0.813
+S1 M1.0 50000 100.0 0.765 0.765
+{'analysis': 'S2 post hoc diagnostic', 'label': 'POST HOC SENSITIVITY (added after the primary grid; not in the protocol)', 'data_source': 'resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data', 'scenario': 'M1.0', 'p': 1.0, 'n_per_arm': 50000, 'reps': 500, 'seed': 20261163, 'true_effect': 0.0011531147573377496, 'mean_adjusted_coefficient': 0.0009779977261753583, 'mean_unadjusted_difference': 0.00117252, 'sd_adjusted_coefficient': 0.0003023693956612542, 'sd_unadjusted_difference': 0.00032981571583662545, 'sd_ratio_adjusted_over_unadjusted': 0.9167828612843701, 'mean_se_adjusted_HC1': 0.00029434520385440623, 'mean_se_unadjusted': 0.0003171482846946581, 'se_ratio_adjusted_over_unadjusted': 0.9280996242429435, 'reject_rate_unadjusted_two_sided': 0.956, 'reject_rate_adjusted_two_sided': 0.908, 'undefined_z_adjusted': 0, 'undefined_z_unadjusted': 0, 'script': 'src/c10_sensitivity.py', 'git': 'not a git repository; no commit made (DESIGN.md section 12)'}
+{'analysis': 'S2 post hoc diagnostic', 'label': 'POST HOC SENSITIVITY (added after the primary grid; not in the protocol)', 'data_source': 'resampled real held-out rows (Criteo uplift v2.1); simulated, not synthetic data', 'scenario': 'A', 'p': 0.0, 'n_per_arm': 50000, 'reps': 500, 'seed': 20261133, 'true_effect': 0.0, 'mean_adjusted_coefficient': -1.3860200708495116e-05, 'mean_unadjusted_difference': -1.508e-05, 'sd_adjusted_coefficient': 0.00025690498628454727, 'sd_unadjusted_difference': 0.00027259716070430394, 'sd_ratio_adjusted_over_unadjusted': 0.9424345639579916, 'mean_se_adjusted_HC1': 0.00026257974208147817, 'mean_se_unadjusted': 0.0002786566332729853, 'se_ratio_adjusted_over_unadjusted': 0.9423057294467582, 'reject_rate_unadjusted_two_sided': 0.036, 'reject_rate_adjusted_two_sided': 0.044, 'undefined_z_adjusted': 0, 'undefined_z_unadjusted': 0, 'script': 'src/c10_sensitivity.py', 'git': 'not a git repository; no commit made (DESIGN.md section 12)'}
+{'analysis': 'S3 post hoc check (full held-out pool, no resampling)', 'label': 'POST HOC SENSITIVITY (added after the primary grid; not in the protocol)', 'data_source': 'all rows of partition H (real data, not resampled, not synthetic)', 'n_rows': 11183674, 'unadjusted_itt_pp': 0.11531147573377495, 'feature_adjusted_treatment_coef_pp': 0.0923922903253511, 'shift_pp': -0.022919185408423866, 'script': 'src/c10_sensitivity.py', 'git': 'not a git repository; no commit made (DESIGN.md section 12)'}
+S4 A 2000
+S4 A 5000
+S4 A 10000
+S4 A 25000
+S4 A 50000
+S4 M1.0 2000
+S4 M1.0 5000
+S4 M1.0 10000
+S4 M1.0 25000
+S4 M1.0 50000
+{'analysis': 'S5 post hoc design inputs and descriptive numbers (no simulation)', 'label': 'POST HOC SENSITIVITY (added after the primary grid; not in the protocol)', 'data_source': 'closed-form arithmetic on fixed inputs from partition H counts', 'control_rate_H': 0.0019394052093353693, 'treated_rate_H': 0.003092519966673119, 'closed_form_n_per_arm_observed_H_lift': np.float64(29624.103345580163), 'closed_form_n_per_arm_S3_effect': np.float64(44049.586541899596), 'S3_effect_pp': 0.0923922903253511, 'S3_relative_lift': 0.476394978628596, 'allocation_factor_85_15_vs_1to1_same_variance': 1.9607843137254901, 'msprt_implied_abs_z_threshold_at_planned_n': 3.6563948713640673, 'msprt_note': 'tau2 = V at the planned n; the threshold is the same at every n for that matching', 'monte_carlo_se_at_p_0.05': 0.004873397172404482, 'monte_carlo_se_at_p_0.36': 0.01073312629199899, 'monte_carlo_se_at_p_0.5': 0.011180339887498949, 'resolution_two_rates_p_0.05_95pct': 0.013508367777048417, 'resolution_two_rates_p_0.5_95pct': 0.030990321069650117, 'primary_grid_paths': 40000, 'primary_grid_rule_evaluations': 240000, 'look_evaluations_per_path_M3_M5_M6': 184, 'look_evaluations_total_M3_M5_M6': 4416000, 'simulated_users_total_conversion_grid': 1472000000, 'block_steps_total_conversion_grid': 73600000, 'script': 'src/c10_sensitivity.py'}
+S6 2000
+S6 5000
+S6 10000
+S6 25000
+S6 50000
+done in 96.1 s
+CHAIN_C_DONE

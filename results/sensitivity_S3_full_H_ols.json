@@ -1,0 +1,11 @@
+{
+  "analysis": "S3 post hoc check (full held-out pool, no resampling)",
+  "label": "POST HOC SENSITIVITY (added after the primary grid; not in the protocol)",
+  "data_source": "all rows of partition H (real data, not resampled, not synthetic)",
+  "n_rows": 11183674,
+  "unadjusted_itt_pp": 0.11531147573377495,
+  "feature_adjusted_treatment_coef_pp": 0.0923922903253511,
+  "shift_pp": -0.022919185408423866,
+  "script": "src/c10_sensitivity.py",
+  "git": "not a git repository; no commit made (DESIGN.md section 12)"
+}

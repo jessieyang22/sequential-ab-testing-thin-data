@@ -1,0 +1,15 @@
+# Raw data (never committed)
+data/raw/
+*.partial
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Cached raw arrays derived from the Criteo file (never committed)
+*.npy
+*.npz
+data/raw/cache/

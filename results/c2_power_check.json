@@ -1,0 +1,18 @@
+{
+  "check": "C2",
+  "scenario": "M1.0 (resampled real rows)",
+  "outcome": "conversion",
+  "n_per_arm_calculated": 29624.103345580163,
+  "n_per_arm_simulated": 29630,
+  "reps": 2000,
+  "seed": 20261089,
+  "simulated_power_M1": 0.7975,
+  "target_power": 0.8,
+  "monte_carlo_se_at_0.80": 0.00894427190999916,
+  "band_3se": [
+    0.7731671842700025,
+    0.8268328157299976
+  ],
+  "pass": true,
+  "script": "src/c2_power.py"
+}

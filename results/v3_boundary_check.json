@@ -1,0 +1,171 @@
+{
+  "check": "V3",
+  "tolerance_z": 0.001,
+  "max_abs_diff_z": 0.0006754833119200221,
+  "pass": true,
+  "rows_compared": 20,
+  "comparison": [
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.05,
+      "look": 1,
+      "upper_z_python": 4.876884938515722,
+      "upper_z": 4.87688494877642,
+      "abs_diff_z": 1.0260698068975671e-08
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.05,
+      "look": 2,
+      "upper_z_python": 3.3570119311288,
+      "upper_z": 3.35701099288275,
+      "abs_diff_z": 9.382460497420197e-07
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.05,
+      "look": 3,
+      "upper_z_python": 2.6802448133751744,
+      "upper_z": 2.68027958138221,
+      "abs_diff_z": 3.476800703561267e-05
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.05,
+      "look": 4,
+      "upper_z_python": 2.2898064966127274,
+      "upper_z": 2.28981668234649,
+      "abs_diff_z": 1.0185733762657634e-05
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.05,
+      "look": 5,
+      "upper_z_python": 2.031022635735572,
+      "upper_z": 2.03103221487616,
+      "abs_diff_z": 9.579140588300561e-06
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.01,
+      "look": 1,
+      "upper_z_python": 6.168001011274755,
+      "upper_z": 6.16800096319308,
+      "abs_diff_z": 4.8081674641764494e-08
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.01,
+      "look": 2,
+      "upper_z_python": 4.286716926582158,
+      "upper_z": 4.28671706029722,
+      "abs_diff_z": 1.3371506213388784e-07
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.01,
+      "look": 3,
+      "upper_z_python": 3.4431529122963545,
+      "upper_z": 3.44357325508641,
+      "abs_diff_z": 0.000420342790055539
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.01,
+      "look": 4,
+      "upper_z_python": 2.94630396168679,
+      "upper_z": 2.94697944499871,
+      "abs_diff_z": 0.0006754833119200221
+    },
+    {
+      "spending": "OBF",
+      "two_sided_alpha": 0.01,
+      "look": 5,
+      "upper_z_python": 2.615467476136983,
+      "upper_z": 2.6153098858775,
+      "abs_diff_z": 0.00015759025948280936
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.05,
+      "look": 1,
+      "upper_z_python": 2.4379766625538473,
+      "upper_z": 2.43797668805001,
+      "abs_diff_z": 2.5496162958660307e-08
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.05,
+      "look": 2,
+      "upper_z_python": 2.4268139027431603,
+      "upper_z": 2.42681368837819,
+      "abs_diff_z": 2.1436497021909418e-07
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.05,
+      "look": 3,
+      "upper_z_python": 2.4101917559281,
+      "upper_z": 2.4101938198191,
+      "abs_diff_z": 2.0638910003256683e-06
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.05,
+      "look": 4,
+      "upper_z_python": 2.3965257226303214,
+      "upper_z": 2.39664543620519,
+      "abs_diff_z": 0.00011971357486872947
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.05,
+      "look": 5,
+      "upper_z_python": 2.3859994248673315,
+      "upper_z": 2.3859846505775,
+      "abs_diff_z": 1.477428983154283e-05
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.01,
+      "look": 1,
+      "upper_z_python": 2.972490307278931,
+      "upper_z": 2.97249031543358,
+      "abs_diff_z": 8.154649400182734e-09
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.01,
+      "look": 2,
+      "upper_z_python": 2.989937004037201,
+      "upper_z": 2.98993702142181,
+      "abs_diff_z": 1.7384608863579842e-08
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.01,
+      "look": 3,
+      "upper_z_python": 2.991781932674348,
+      "upper_z": 2.9918854307102,
+      "abs_diff_z": 0.00010349803585185668
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.01,
+      "look": 4,
+      "upper_z_python": 2.991523730494081,
+      "upper_z": 2.99161161752723,
+      "abs_diff_z": 8.788703314888124e-05
+    },
+    {
+      "spending": "Pocock",
+      "two_sided_alpha": 0.01,
+      "look": 5,
+      "upper_z_python": 2.991331846602261,
+      "upper_z": 2.99110717838458,
+      "abs_diff_z": 0.00022466821768096779
+    }
+  ],
+  "script": "src/c3_boundaries.py",
+  "reference": "results/gsdesign_boundaries.csv (gsDesign 3.11.0)"
+}

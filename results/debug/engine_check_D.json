@@ -1,0 +1,16 @@
+{
+  "partition": "D (development, debugging only; not a reported result)",
+  "n_per_arm": 2000,
+  "p": 0.5,
+  "reps": 6000,
+  "row_draw_mean_control": 3.8586666666666667,
+  "engine_mean_control": 3.8465,
+  "row_draw_mean_treated": 4.994,
+  "engine_mean_treated": 5.0735,
+  "row_draw_var_treated": 4.843771295215869,
+  "engine_var_treated": 5.069942740456743,
+  "ks_stat_control": 0.0075,
+  "ks_p_control": 0.995928221449446,
+  "ks_stat_treated": 0.012833333333333334,
+  "ks_p_treated": 0.7064292515070819
+}
